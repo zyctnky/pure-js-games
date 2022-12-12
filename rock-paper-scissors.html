@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/favicon.png">
+    <title>Rock Paper Scissors Game</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/rock-paper-scissors.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="gameArea">
+      <h1 class="title">Rock Paper Scissors</h1>
+      <div class="selectionArea" id="userChoiseArea">
+        <img class="userChoise" id="rock" src="assets/img/rock.png" />
+        <img class="userChoise" id="paper" src="assets/img/paper.png" />
+        <img class="userChoise" id="scissors" src="assets/img/scissor.png" />
+      </div>
+      <div class="scoreArea" id="scoreArea">
+        <img class="scoreImage" src="assets/img/avatar1.png" />
+        <span class="score" id="userScore">0</span>
+        <span class="score"> - </span>
+        <span class="score" id="computerScore">0</span>
+        <img class="scoreImage" src="assets/img/computer.png" />
+      </div>
+      <div class="resultArea" id="resultArea" style="display: none">
+        <img id="resultImage" src="assets/img/computer.png" />
+        <span id="resultText"></span>
+        <input
+          type="button"
+          class="btnGame"
+          id="btnNewGame"
+          value="New Game"
+        />
+      </div>
+      <div class="selectionArea" id="computerChoiseArea">
+        <img class="computerChoise" id="computerrock" src="assets/img/rock.png" />
+        <img class="computerChoise" id="computerpaper" src="assets/img/paper.png" />
+        <img
+          class="computerChoise"
+          id="computerscissors"
+          src="assets/img/scissor.png"
+        />
+      </div>
+    </div>
+
+    <script src="assets/js/rock-paper-scissors.js" charset="utf-8"></script>
+  </body>
+</html>

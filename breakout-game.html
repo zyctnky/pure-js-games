@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/favicon.png" />
+    <title>Breakout Game</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/breakout-game.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="gameArea" style="justify-content: start">
+      <h1 class="title">Breakout Game</h1>
+      <div id="startGameArea">
+        <img src="assets/img/breakout-game-logo.png" alt="Logo" class="logo" />
+        <input
+          type="button"
+          class="btnGame"
+          id="btnStartGame"
+          value="Start Game"
+        />
+      </div>
+
+      <div id="gridArea" style="display: none">
+        <div style="display: flex; justify-content: center; width: 100%">
+          <div class="grid" id="grid"></div>
+        </div>
+      </div>
+      <div id="resultArea" style="display: none">
+        <img src="assets/img/breakout-game-logo.png" alt="Logo" class="logo" />
+        <h1 id="score"></h1>
+        <input type="button" class="btnGame" id="btnNewGame" value="New Game" />
+      </div>
+    </div>
+
+    <script src="assets/js/breakout-game.js" charset="utf-8"></script>
+  </body>
+</html>

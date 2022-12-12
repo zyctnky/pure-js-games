@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/favicon.png" />
+    <title>Catch The Mole</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/catch-the-mole.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="gameArea">
+      <h1 class="title">Catch The Mole</h1>
+      <div id="startGameArea">
+        <img src="assets/img/catch-the-mole.png" alt="Logo" class="logo" />
+        <input
+          type="button"
+          class="btnGame"
+          id="btnStartGame"
+          value="Start Game"
+        />
+      </div>
+      <div id="gridArea" style="display: none">
+        <div class="header">
+          <div class="scoreArea">
+            <h2>Your Score</h2>
+            <h2 id="score">0</h2>
+          </div>
+          <div class="timeArea">
+            <h2>Time Left</h2>
+            <h2 id="time-left">30</h2>
+          </div>
+        </div>
+        <div class="grid" id="grid"></div>
+      </div>
+      <div id="resultArea" style="display: none">
+        <img src="assets/img/catch-the-mole.png" alt="Logo" class="logo" />
+        <h1>Your Score</h1>
+        <h2 id="scoreResult"></h2>
+        <input
+        type="button"
+        class="btnGame"
+        id="btnNewGame"
+        value="New Game"
+        />
+    </div>
+    <script src="assets/js/catch-the-mole.js" charset="utf-8"></script>
+  </body>
+</html>

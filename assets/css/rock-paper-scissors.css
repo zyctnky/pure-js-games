@@ -1,0 +1,83 @@
+
+.selectionArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    width: 500px;
+}
+
+.userChoise {
+    height: 80px;
+    width: 80px;
+    padding: 25px;
+    margin: 10px;
+    border: 1px solid #dedede;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; 
+}
+
+.userChoise:hover {
+    background-color: #07a812;
+}
+
+.computerChoise {
+    height: 80px;
+    width: 80px;
+    padding: 25px;
+    margin: 10px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; 
+}
+
+.imgSelected {
+    background-color: #07a812;
+}
+
+.scoreArea {
+    width: 400px;
+    padding: 10px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resultArea {
+    width: 400px;
+    padding: 10px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; 
+}
+
+#resultText {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#resultImage {
+    height: 150px;
+    width: 150px;
+    margin: 20px 0;
+}
+
+.score{
+    margin: 0 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.scoreImage{
+    height: 80px;
+    width: 80px;
+}

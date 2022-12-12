@@ -1,0 +1,29 @@
+.games {
+    display: flex;
+    padding: 50px 0;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.game:hover {
+    background-color: #dedede;
+}
+
+.gameImage {
+    height: 150px;
+    width: 150px;
+    margin: 10px 0;
+}
+
+.gameTitle {
+    font-weight: bold;
+    margin: 10px 0;
+}
